@@ -13,19 +13,19 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `[duhita],
 
-Your personalized birthday message goes here.
-
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+On your special day, I just want to say that you are one of the most important people in my life, even if I don’t always say it out loud. You mean more than words can fully explain, and today feels like the right moment to finally express it properly.
+I hope this year brings you everything you’ve been silently wishing for—the kind of peace that makes your mind calm, the kind of happiness that feels real and lasting, and the kind of success that makes you proud of yourself every single day. You deserve a life where you don’t have to settle for less than what your heart truly wants.
+There are so many moments where you’ve been strong without anyone noticing, where you’ve kept going even when things were difficult, and honestly, that says a lot about who you are. You’re not just someone who exists in people’s lives—you leave a mark on them. You change the way people feel, and that’s rare.
+If I could wish for one thing beyond your happiness, it would be that you always stay true to yourself. Don’t let the world change the good parts of you. Keep your kindness, your energy, your way of caring—even if not everyone understands it.
+No matter where life takes you, I hope you always find reasons to smile. And even on the days when things feel heavy, I hope you remember that better days always come back.
+Thank you for being you. Truly.
+Happy Birthday once again. 🎂💙
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— [duhita]`;
 
   // Handle page transitions
   useEffect(() => {
